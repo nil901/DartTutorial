@@ -93,8 +93,62 @@ void main() {
   // print(--t);
   // print(t);
 
-  var t = 20;
-  print(t);
-  print(t--);
-  print(t);
+  // var t = 20;
+  // print(t);
+  // print(t--);
+  // print(t);
+
+  //## Equality and Relational operators
+  // var a = 100;
+  // var b = 200;
+
+  // print(a == b);
+  // print(b != a);
+  // print(a > b);
+  // print(a < b);
+  // print(a >= b);
+  // print(a <= b);
+
+  //logical Operator
+  // int a = 100;
+  // int b = 100;
+  // int c = 200;
+  // int d = 200;
+
+  // print((a == b) && (c == d));
+  // print((a == b) || (c == d));
+
+  //## Type Test Operators
+
+//   var name = "nilesh";
+//   var number = 10;
+//   //print(name is String);
+//   print(number is! int);
+
+  // Assignment Operators
+
+  // var n = 10;
+  // n += 5; // n=n+5;
+  // print(n);
+
+  // var b = 10;
+  // b -= 5;
+  // print(b);
+
+  // conditional Expresstion
+
+  var is_login = true;
+  var user = is_login ? "hii nilesh you login" : " you have not login";
+  //print(user);
+
+  // var name = 'NileshPathak';
+  // var user2 = name?? 'Guest';
+  // print(user2);  
+
+  var name = null;
+  var user2 = name?? 'Guest';
+  print(user2);  
+
+   
+
 }
